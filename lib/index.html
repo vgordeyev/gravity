@@ -7,11 +7,21 @@
 </head>
 <body>
 
-<canvas id="space" width="700" height="700">
-    An alternative text describing what your canvas displays.
-</canvas>
 
-<script src="index.js"></script>
+    <div id="containerCanvas" style="padding: 10px; float:left;">
+        <canvas id="space" width="860" height="860">
+            An alternative text describing what your canvas displays.
+        </canvas>
+    </div>
+    <div style="float:left; clear:none;">
+        <p>Hello</p>
+    </div>
+
+    <!--<div style="float:left; clear:none;">-->
+    <!--</div>-->
+
+<script type="module" src="./model.js"></script>
+<script type="module" src="./index.js"></script>
 
 </body>
 </html>
